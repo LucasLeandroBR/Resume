@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    background-color: rgba(44, 14, 19, 0.11);
+}
+.container {
+    display: flex;
+}
+.navbar {
+    display: flex;
+    background-color: rgba(216, 215, 215, 0.8);
+    width: 100%;
+    height: 70px;
+    justify-content: flex-end;
+}
+.navbar li {
+    border-radius: 5px;
+    display: inline-block;
+    list-style-type: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 25px;
+    padding: 10px 20px 10px;
+}
+.navbar li:hover {
+    background-color: #00000032;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .photo img {
+    border-radius: 50%;
+    width: 230px;
+    padding: 30px;
+}
+.personal-info {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer i {
+    color: black;
+    padding: 30px;
+    font-size: 30px;
+}
+
+footer i:hover {
+    color: springgreen;
+}
+
+.resume-overview {
+    display: flex;
+    padding-top: 40px;
+    width: 800px;
+    justify-content: center;
+}
+.resume {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.button-download {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 300px;
+    font-weight: 700;
+}
+button {
+    font-size: 16px;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: rgba(44, 14, 19, 0.11);
+    border: none;
+    cursor: auto;
+}
